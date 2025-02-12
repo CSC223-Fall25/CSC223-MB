@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'csc223.mb.DNA'
+    mainClass = 'csc223.mb.App'
 }
 
 tasks.named('test') {

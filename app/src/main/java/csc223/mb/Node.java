@@ -17,10 +17,17 @@ public class Node {
         this.data = ' ';
         
     }
+    public Node(char data){
+        this.previous = null;
+        this.next = null;
+        this.data = data;
+        
+    }
+
 
     public Node(){
         this.previous = null;
         this.next = null;
-        this.data = ' ';
+        
      }
 }
